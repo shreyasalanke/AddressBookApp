@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Address Book</title>
+    <link rel="stylesheet" href="C:\Users\HP\OneDrive\Desktop\AddressBookApp\css\home.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header-content header">
+        <div class="logo-content">
+            <img src="C:\Users\HP\OneDrive\Desktop\AddressBookApp\Asserts\image\address-book-logo.png" alt="logo">
+            <div>
+                <span class="address-text">ADDRESS BOOK</span>
+             </div>
+        </div>
+    </header>
+    <div class="main-content">
+        <div class="form-header-content">
+            <div class="person-detail-text">
+                Person Details
+            </div>
+            <div class="header-button">
+                <a href="C:\Users\HP\OneDrive\Desktop\AddressBookApp\Pages\addperson.html" class="add-button">
+                <img src="file:///C:/Users/HP/OneDrive/Desktop/AddressBookApp/Asserts/icons/add-24px.svg" alt="+">Add Person</a>
+            </div>            
+        </div>
+        <table id="table-display" class="table">
+            <tr>
+                <th></th>
+                <th>Full Name</th>
+                <th>Address</th>
+                <th>City</th>
+                <th>State</th>
+                <th>Zip Code</th>
+                <th>Phone Number</th>
+                <th>Actions</th>
+            </tr>
+            <tr>
+                <td></td>
+                <td> Shreya</td>
+                <td> SMGH </td>
+                <td>Shivamogga</td>
+                <td>Karnataka</td>
+                <td>577203</td>
+                <td>+919647670099</td>
+                <td>
+                    <img id="1" onclick="remove(this)" src="file:///C:/Users/HP/OneDrive/Desktop/AddressBookApp/Asserts/icons/delete.png" alt="delete">
+                    <img id="1" onclick="update(this)" src="file:///C:/Users/HP/OneDrive/Desktop/AddressBookApp/Asserts/icons/edit.png" alt="edit">
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <script defer src="C:\Users\HP\OneDrive\Desktop\AddressBookApp\Js\home.js"></script>
+</body>
+</html>
